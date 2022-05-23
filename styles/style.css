@@ -214,8 +214,16 @@ section {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 60%;
   height: 100%;
+  padding-bottom: 12px;
 }
 
 .flex .text p {
@@ -223,7 +231,7 @@ section {
   color: #FFFFFF;
   text-align: left;
   margin: 0;
-  padding: 0 2vw;
+  padding: 0 20% 12px 2%;
 }
 
 .flex .input {
@@ -243,6 +251,17 @@ section {
   padding-bottom: 2vh;
   width: 37.5vw;
   font-size: 20px;
+}
+
+.logo {
+  padding: 0 20% 12px 2%;
+}
+
+.logo img {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 32px;
+  padding: 0;
+  margin: 12px;
 }
 
 footer {
