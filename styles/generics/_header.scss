@@ -15,7 +15,7 @@ nav {
     color: $color1;
     #logo{
         font-family: $logo_font;
-        font-size: 2em;
+        font-size: 2rem;
         a{
             color: $color1;
             text-decoration: none;
@@ -38,7 +38,7 @@ nav {
         padding: 1.5vh;
         margin: 0;
         font-weight: bold;
-        font-size:1em;
+        font-size:1rem;
         &:hover {
             color: black;
             background-color: rgba(255, 255, 255, 0.7);
@@ -54,13 +54,13 @@ nav {
     h1{
         color: $color1;
         background-color: $bkg_color;
-        font-size: 3em;
+        font-size: 3rem;
     }
     @media(min-width:768px) {
         h1{
             color: $color1;
             background-color: $bkg_color;
-            font-size: 4em;
+            font-size: 4rem;
         }
     }
 }

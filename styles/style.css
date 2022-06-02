@@ -43,7 +43,7 @@ nav {
 
 nav #logo {
   font-family: "Smooch";
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 nav #logo a {
@@ -72,7 +72,7 @@ nav #logo a {
   padding: 1.5vh;
   margin: 0;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .nav-bar a:hover {
@@ -96,14 +96,14 @@ nav #logo a {
 .content h1 {
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 @media (min-width: 768px) {
   .content h1 {
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: 4em;
+    font-size: 4rem;
   }
 }
 
@@ -175,6 +175,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  font-size: 62.5%;
 }
 
 h2 {
@@ -182,7 +183,7 @@ h2 {
   color: #FFFFFF;
   text-align: center;
   margin-top: 0;
-  padding-top: 50px;
+  padding-top: 5rem;
 }
 
 section {
@@ -224,11 +225,11 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
-  padding-bottom: 12px;
+  padding-bottom: 1.2rem;
 }
 
 .flex .text p {
-  font-size: 1em;
+  font-size: 1.2rem;
   color: #FFFFFF;
   text-align: center;
   margin: 0;
@@ -251,7 +252,7 @@ section {
           align-items: space-between;
   padding-bottom: 2vh;
   width: 75vw;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -296,7 +297,7 @@ section {
     padding-bottom: 12px;
   }
   .flex .text p {
-    font-size: 1em;
+    font-size: 1.2rem;
     color: #FFFFFF;
     text-align: left;
     margin: 0;
@@ -318,7 +319,7 @@ section {
             align-items: space-around;
     padding-bottom: 2vh;
     width: 37.5vw;
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 
