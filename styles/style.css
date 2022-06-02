@@ -96,7 +96,15 @@ nav #logo a {
 .content h1 {
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 4em;
+  font-size: 3em;
+}
+
+@media (min-width: 768px) {
+  .content h1 {
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 4em;
+  }
 }
 
 .form {

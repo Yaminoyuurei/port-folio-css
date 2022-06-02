@@ -54,6 +54,13 @@ nav {
     h1{
         color: $color1;
         background-color: $bkg_color;
-        font-size: 4em;
+        font-size: 3em;
+    }
+    @media(min-width:768px) {
+        h1{
+            color: $color1;
+            background-color: $bkg_color;
+            font-size: 4em;
+        }
     }
 }
